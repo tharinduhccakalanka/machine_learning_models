@@ -48,7 +48,7 @@ df. replace('?', np.nan, inplace=True) # Replace '?' with NaN so imputer can fin
 
 # Recreate X and y after cleaning df so X reflects the NaN values
 X = df.drop('target', axis=1)
-y = df['target']
+y = df['']
 
 X = X. astype(float) # Ensure all data is numeric for the imputer (now with NaN instead of '?')
 
