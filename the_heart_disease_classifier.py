@@ -12,6 +12,8 @@ url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/p
 column_names = ['age','sex','cp','trestbps','chol','fbs','restecg','thalach','exang','oldpeak','slope','ca','thal','target']
 df = pd.read_csv(url,header= None, names=column_names)
 print(df.head())
+print(df.tail())
+
 df.info()
 
 # The 'target' column is our answer key (0 = no disease, 1-4 = disease). Let's simplify it to a binary problem.
