@@ -13,6 +13,7 @@ column_names = ['age','sex','cp','trestbps','chol','fbs','restecg','thalach','ex
 df = pd.read_csv(url,header= None, names=column_names)
 print(df.head())
 print(df.tail())
+print(df.shape())
 
 df.info()
 
