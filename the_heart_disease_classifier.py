@@ -14,6 +14,7 @@ df = pd.read_csv(url,header= None, names=column_names)
 print(df.head())
 print(df.tail())
 print(df.shape())
+print() 
 
 df.info()
 
